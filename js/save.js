@@ -17,7 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.**/
 var cookiePrefix = "NEET-SIMULATOR-SAVE:";
 var cookieListName = "NEET-SIMULATOR-SAVE-LIST";
 
-function createBCookie(name, value, days){
+function createCookie(name, value, days){
 	if (!days) {
 		days = 88;
 	}
@@ -25,29 +25,22 @@ function createBCookie(name, value, days){
 	var date = new Date();
 	date.setTime(date.getTime()+(days*24*60*60*1000));
 
-	document.cookie = name+"="+value+"; expires="+date.toGMTString()+"; path=/";
+	document.cookie = name+"="+btoa(JSON.stringify(value))+"; expires="+date.toGMTString()+"; path=/";
 }
 
-function readBCookie(name) {
+function readCookie(name) {
 	var nameEQ = name + "=";
 	var ca = document.cookie.split(';');
 	for(var i=0;i < ca.length;i++) {
 		var c = ca[i];
 		while (c.charAt(0)==' ') c = c.substring(1,c.length);
-		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+		if (c.indexOf(nameEQ) == 0) return JSON.parse(atob(c.substring(nameEQ.length,c.length)));
 	}
 	return null;
 }
 
 function eraseCookie(name) {
 	createBCookie(name,"",-1);
-}
-
-function createCookie(name, value, days){
-  createBCookie(name, btoa(JSON.stringify(value)), days);
-}
-function readCookie(name){
-  return JSON.parse(atob(readBCookie(name)));
 }
 
 function getSaveCookieName(name){
