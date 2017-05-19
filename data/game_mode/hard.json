@@ -1,0 +1,16 @@
+{
+	"stats": {
+		"weight": 188,
+		"hunger": 0.25,
+		"tendies": 3,
+    "temperature": 96.789,
+    "temperature_rate": 0.005
+	},
+	"images": [
+		"body",
+		"keyboard",
+		"desk",
+		"wojak",
+		"tendies"
+	]
+}

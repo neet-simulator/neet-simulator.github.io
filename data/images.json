@@ -1,0 +1,84 @@
+{
+	"wojak": {
+		"size": [365, 515],
+		"parent": "me",
+		"file": "res/img/wojak.png",
+		"icon": "res/ico/wojak.png",
+		"index": -1,
+		"pos": [40, 3]
+	},
+	"keyboard": {
+		"size": [362, 206],
+		"parent": "me",
+		"file": "res/img/keyboard.png",
+		"icon": "res/ico/keyboard.png",
+		"index": -2,
+		"pos": [35, 398]
+	},
+	"tendies": {
+		"size": [293, 164],
+		"parent": "stuff",
+		"file": "res/img/tendies.png",
+		"icon": "res/ico/tendies.png",
+		"index": -1,
+		"pos": [183, 0]
+	},
+	"desk": {
+		"size": [429, 197],
+		"parent": "me",
+		"file": "res/img/desk.png",
+		"icon": "res/ico/desk.png",
+		"index": -3,
+		"pos": [17, 340]
+	},
+	"mechanical_keyboard": {
+    "size": [362, 206],
+		"parent": "me",
+		"file": "res/img/mechanical_keyboard.png",
+		"icon": "res/ico/mechanical_keyboard.png",
+		"index": -2,
+    "pos": [35, 398]
+	},
+	"spurdo": {
+		"size": [405, 518],
+		"parent": "me",
+		"file": "res/img/spurdo.png",
+		"icon": "res/ico/spurdo.png",
+		"index": -1,
+		"pos": [0, 0]
+	},
+	"dvorak_keyboard": {
+		"src": "https://commons.wikimedia.org/wiki/File:Dvorak_hybrid.jpg",
+		"size": [302, 202],
+		"parent": "me",
+		"file": "res/img/dvorak_keyboard.png",
+		"icon": "res/ico/dvorak_keyboard.png",
+		"index": -2,
+		"pos": [120, 363]
+	},
+	"space_cadet": {
+		"src": "https://en.wikipedia.org/wiki/File:Space-cadet.jpg",
+		"size": [376, 249],
+		"parent": "me",
+		"file": "res/img/space_cadet.png",
+		"icon": "res/ico/space_cadet.png",
+		"index": -2,
+		"pos": [82, 345]
+	},
+	"body": {
+		"size": [335, 260],
+		"parent": "me",
+		"file": "res/img/body.png",
+		"icon": "res/ico/body.png",
+		"index": -2,
+		"pos": [16, 188]
+	},
+	"pepe": {
+		"size": [378, 509],
+		"parent": "me",
+		"file": "res/img/pepe.png",
+		"icon": "res/ico/pepe.png",
+		"index": -1,
+		"pos": [27, 9]
+	}
+}

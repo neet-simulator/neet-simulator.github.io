@@ -1,0 +1,63 @@
+{
+	"game_mode": "normie",
+	"alive": {
+    "value": true
+  },
+	"status": {
+    "value": ["Meh", "Meh"],
+		"selector": "#me .status > .value",
+		"color": ["#000", "#000"]
+	},
+	"fps": {},
+	"weight":{
+		"selector": "#me .weight > .value",
+		"max_decimal": 2,
+		"units": "lbs"
+	},
+	"hunger":{
+		"selector": "#me .hunger > .value",
+		"time": 1000,
+		"max_decimal": 2,
+    "rate": 0.01,
+		"units": "tendies/second"
+	},
+  "temperature":{
+    "selector": "#me .temperature > .value",
+    "max_decimal": 4,
+    "time": 1000,
+    "rate": 0.05,
+	   "units": "*F"
+  },
+  "temperature_rate":{
+
+  },
+	"nbx":{
+    "value": 0,
+		"selector": "#mine .count > .value",
+		"rate": 0.06,
+		"max_decimal": 2
+	},
+	"keymine":{
+		"value": "Type to generate NEETBux. Try not to starve.",
+		"selector": "#mine .input",
+    "color": ["#000", "#000"]
+	},
+  "automine":{
+    "selector": ".automine > .value",
+    "value": 0,
+    "rate": 0.2,
+    "time": 1000
+  },
+	"tendies":{
+		"selector": "#barrel > .value"
+	},
+  "starving_rate":{
+    "value": 0.5
+  },
+	"keyboard": {
+    "value": 1
+  },
+	"head": {
+    "value": 1
+  }
+}

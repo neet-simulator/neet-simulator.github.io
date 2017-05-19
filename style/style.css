@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Impact';
+	src: url('../res/font/impact.ttf') format('truetype');
+}
+body {
+	font-family: 'Impact';
+}
+a{
+  color: blue;
+}

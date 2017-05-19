@@ -1,0 +1,114 @@
+{
+	"tendies": {
+		"type": "food",
+		"item_use": "store",
+		"store_name": "food",
+		"max_decimal": 2,
+		"parent": "stuff",
+		"weight": 1,
+		"description": "Delicious tendies to fill your belly",
+		"pretty_name": "Tendies",
+		"price": 1
+	},
+	"miner": {
+		"type": "miner",
+		"item_use": "automine",
+		"store_name": "contracts",
+		"max_decimal": 0,
+		"description": "Will mine 0.2 NBX/s for the purchaser for the remaining duration of his life.",
+		"pretty_name": "Miner",
+		"price": 35
+	},
+	"mechanical_keyboard": {
+		"type": "keyboard",
+		"item_use": "upgrade",
+		"store_name": "hardware",
+		"max_decimal": 0,
+		"upgrade_level": 2,
+		"parent": "me",
+		"description": "Black. Makes clickity clackity noises.",
+		"pretty_name": "Mechanical Keyboard",
+		"price": 50
+	},
+	"spurdo": {
+		"type": "head",
+		"item_use": "upgrade",
+		"store_name": "heads",
+		"max_decimal": 0,
+		"upgrade_level": 10,
+		"parent": "me",
+		"description": "Spurdo Sp\u00e4rde Ebin :DDDDDDDD",
+		"pretty_name": "Spurdo Sp\u00e4rde",
+		"price": 6969
+	},
+	"desk": {
+		"type": "desk",
+		"max_decimal": 0,
+		"parent": "me"
+	},
+	"stores": {
+		"hardware": ["mechanical_keyboard"],
+		"miners": ["miner"],
+		"heads": ["spurdo", "pepe"],
+		"food": ["tendies"]
+	},
+	"wojak": {
+		"type": "head",
+		"max_decimal": 0,
+		"parent": "me",
+		"description": "Do you see him? Do you see the story? Do you see anything?",
+    "pretty_name": "Wojak",
+		"price": 0
+	},
+	"keyboard": {
+		"type": "keyboard",
+		"value": 1,
+		"max_decimal": 0,
+		"parent": "me",
+		"description": "Mom got this for me to do homework with",
+		"pretty_name": "White Keyboard",
+		"price": 0
+	},
+	"hands": {
+		"type": "hands",
+		"max_decimal": 0
+	},
+	"body": {
+		"type": "body",
+		"max_decimal": 0,
+		"parent": "me"
+	},
+	"dvorak_keyboard": {
+		"type": "keyboard",
+		"item_use": "upgrade",
+		"store_name": "hardware",
+		"max_decimal": 0,
+		"upgrade_level": 5,
+		"parent": "me",
+		"description": "Compose grand symphonies with this expert layout!",
+		"pretty_name": "Dvorak Keyboard",
+		"price": 199
+	},
+	"space_cadet": {
+		"type": "keyboard",
+		"item_use": "upgrade",
+		"store_name": "hardware",
+		"max_decimal": 0,
+		"upgrade_level": 10,
+		"parent": "me",
+		"description": "Ready for lift off?",
+		"pretty_name": "Space Cadet",
+		"price": 1337
+	},
+	"pepe": {
+		"type": "head",
+		"item_use": "upgrade",
+		"store_name": "heads",
+		"max_decimal": 0,
+		"upgrade_level": 10,
+		"parent": "me",
+		"description": "feels bad man...",
+		"pretty_name": "Pepe",
+		"price": 1000
+	}
+}

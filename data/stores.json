@@ -1,0 +1,30 @@
+{
+	"hardware": {
+		"tree": {
+			"mechanical_keyboard": {
+				"space_cadet": {},
+				"dvorak_keyboard": {}
+			}
+		},
+		"pretty_name": "Hardware"
+	},
+	"contracts": {
+		"tree": {
+			"miner": {}
+		},
+		"pretty_name": "Contracts"
+	},
+	"heads": {
+		"tree": {
+			"spurdo": {},
+			"pepe": {}
+		},
+		"pretty_name": "Surgery"
+	},
+	"food": {
+		"tree": {
+			"tendies": {}
+		},
+		"pretty_name": "Food"
+	}
+}

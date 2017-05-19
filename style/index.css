@@ -1,0 +1,292 @@
+html, body{
+  height: 100%;
+}
+html{
+  display: table;
+  margin: auto;
+}
+body {
+  display: table-cell;
+  overflow: hidden;
+}
+
+img {
+}
+
+input, button, select{
+  font-family: 'Impact';
+  background-color: #fafafa;
+}
+
+.image_container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.image_container > *{
+  position: absolute;
+  height: auto;
+  width: auto;
+}
+
+#noscript{
+  text-align: center;
+}
+#noscript > .title{
+  font-size: 64px;
+}
+#noscript > .body{
+  font-size: 32px;
+}
+
+.info{
+  text-align: center;
+}
+
+#game{
+  /*position: absolute;*/
+  display: none;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+#game > *{
+  top: 0px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+#me{
+  float: left;
+	width: 366px;
+	height: 100%;
+  margin-left: 2.5%;
+}
+#me > div{
+	display: block;
+}
+.stats{
+  text-align: left;
+}
+.stats > .status{
+  font-size: 20px;
+}
+.stats > * > *{
+  display: inline-block;
+}
+#me > .image_container{
+	margin-top: 5%;
+}
+
+#desk{
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+}
+#desk > .desk{
+  position: absolute;
+  width: 100vw;
+	background-color: #804000;
+  /*background-color: red;*/
+  z-index: -9999;
+}
+
+#stuff{
+  width: auto;
+  height: auto;
+}
+#fire{
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+#fire_desk{
+  width: 100%;
+  height: 8px;
+  background-color: #aaa;
+}
+#barrel{
+  position: relative;
+}
+#barrel > img{
+  z-index: -1;
+}
+#barrel > .value{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1em;
+  text-align: center;
+}
+
+#computer{
+  float: right;
+  width: 50vw;
+  height: 90vh;
+}
+#screen{
+	top: 0px;
+  width: 95%;
+  height: 95%;
+	border-style: solid;
+	border-width: 5px;
+	background-color: #fff;
+  display: table;
+}
+
+#mine{
+  width: 100%;
+  height: 64px;
+  position: relative;
+  display: table-row;
+}
+#mine .left{
+  float: left;
+  margin-right: 5px;
+}
+#mine .right{
+  float: right;
+  margin-left: 5px;
+}
+#mine .center{
+  top: 5px;
+  overflow: hidden;
+  height: 64px;
+}
+#mine .count{
+  text-align: center;
+	font-size: 18px;
+}
+#mine .count > *{
+  display: inline-block;
+}
+#mine .input-container{
+  margin-top: 7px;
+	height: 33px;
+	border: solid;
+	border-width: 1px;
+  text-align: center;
+  font-size: 18px;
+}
+.automine{
+  display: none;
+  position: absolute;
+  width: 64px;
+  height: 12px;
+}
+.automine > .value{
+  font-size: 12px;
+  text-align: center;
+}
+#mine .right .value{
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+#browser{
+  width: 100%;
+  display: table-row;
+}
+
+#browser_body{
+	/*overflow: auto;*/
+}
+
+.tabs{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+.tabs > li{
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0;
+	padding: 0;
+}
+.tabs > li > a{
+	display: block;
+	padding: 3px;
+	color: #4C4C4C;
+}
+.tabs > li > .active{
+	color: #000;
+}
+
+#stores{
+  width: 100%;
+  bottom: 0;
+}
+
+#stores_body{
+  width: 100%;
+  bottom: 0;
+}
+
+.store{
+  table-layout: fixed;
+}
+
+.item{
+	height: 72px;
+	border-style: solid;
+	border-width: 2px;
+}
+td.img{
+  width: 67px;
+}
+.action{
+	z-index: 1;
+	margin-left: 3px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.item-info{
+  vertical-align: middle;
+  text-align: center;
+  font-size: 18px;
+  width: 9em;
+  margin-left: 2em;
+}
+.item-info > *{
+  display: block;
+}
+.item-price-container{
+	margin-right: 2px;
+}
+.item-price-container > *{
+  display:inline-block;
+}
+.item-description{
+  text-align: center;
+}
+
+#saves_menu *{
+  font-size: 16px;
+}
+
+#gamemode{
+  font-size: 16px;
+}
+#settings input{
+  font-size: 18px;
+}
+
+#screen_neck_container{
+  width: 100%;
+  height: 5%;
+  text-align: center;
+}
+#screen_neck{
+  display: inline-block;
+	width: 88px;
+	height: 33px;
+	background-color: #000;
+}

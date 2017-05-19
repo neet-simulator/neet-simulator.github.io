@@ -1,0 +1,19 @@
+a#game{
+  font-size: 22px;
+}
+a#license{
+  font-size: 18px;
+}
+#text{
+  text-align: center;
+}
+#guide{
+  margin-bottom: 25px;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+td{
+  text-align: right;
+}

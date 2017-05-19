@@ -1,0 +1,21 @@
+{
+	"stats": {
+		"weight": 188,
+		"hunger": 0.25,
+		"nbx": 11,
+		"keymine": "Type to generate NEETBux. Try not to starve.",
+		"tendies": 25,
+		"keyboard": 1,
+		"head": 1,
+    "automine": 0,
+    "temperature": 98.9,
+    "temperature_rate": 0.0005
+	},
+	"images": [
+		"body",
+		"keyboard",
+		"desk",
+		"wojak",
+		"tendies"
+	]
+}

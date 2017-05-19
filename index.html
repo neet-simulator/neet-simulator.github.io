@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+  <link rel="icon" href="/res/ico/favicon.png">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/index.css">
+  <script src="/js/jquery.js"></script>
+  <script src="/js/index.js"></script>
+  <title>NEET Simulator</title>
+</head>
+<body>
+	<div id="noscript">
+		<p class="title">Game is loading...</p>
+		<p class="body">
+      If you are stuck with this message, there is a javascript problem.</br>
+      Make sure your browser is updated and that javascript is enabled.
+    </p>
+    <div class="info">
+        <a href="/info.html">Info</a>
+    </div>
+	</div>
+	<div id="game">
+		<div id="me">
+			<div class="stats">
+				<div class="status">
+					<div class="label">Status: </div>
+					<div class="value"></div>
+				</div>
+				<div class="weight">
+					<div class="label">Weight: </div>
+					<div class="value"></div>
+					<div class="units"> lbs</div>
+				</div>
+				<div class="hunger">
+					<div class="label">Hunger: </div>
+					<div class="value"></div>
+					<div class="units"> tendies/second</div>
+				</div>
+        <div class="temperature">
+          <div class="label">Temperature: </div>
+					<div class="value"></div>
+					<div class="units"> *F</div>
+        </div>
+			</div>
+			<div class="image_container"></div>
+		</div>
+    <div id="stuff">
+      <div id="fire">
+        <img src="/res/img/tendies_nofire.svg">
+        <div id="fire_desk"></div>
+      </div>
+      <div id="barrel">
+        <img src="/res/img/barrel_full.png">
+        <div class="value"></div>
+      </div>
+      <div class="info">
+          <a href="/info.html">Info</a>
+      </div>
+    </div>
+    <div id="computer">
+			<div id="screen">
+				<div id="mine">
+          <div class="left">
+            <div class="automine">
+              <div class="value"></div>
+            </div>
+            <img src="/res/ico/gold_coin_left.png" />
+          </div>
+          <div class="right">
+            <div class="automine">
+              <div class="value"></div>
+            </div>
+            <img src="/res/ico/gold_coin_right.png" class="mine_nbx_icon" />
+          </div>
+          <div class="center">
+  					<div class="count">
+  						<div class="title">NEETBux: </div>
+  						<div class="value"></div>
+  					</div>
+            <div class="input-container">
+              <span class="input"></span>
+            </div>
+          </div>
+				</div>
+				<div id="browser">
+					<ul class="tabs">
+						<li><a name="store" class="active">Store</a></li>
+						<li><a name="bag">Bag</a></li>
+						<li><a name="saves">Saves</a></li>
+						<li><a name="settings">Settings</a></li>
+					</ul>
+					<div id="browser_body">
+						<div class="from-tab-store" id="stores">
+							<ul class="tabs">
+							<li><a name="food" class="active">Food</a></li><li><a name="hardware" class="">Hardware</a></li><li><a name="contracts" class="">Contracts</a></li><li><a name="heads" class="">Surgery</a></li>
+							</ul>
+							<div id="stores_body">
+							
+								<table class="store food from-tab-food">
+								</table>
+							
+								<table class="store hardware from-tab-hardware">
+								</table>
+							
+								<table class="store contracts from-tab-contracts">
+								</table>
+							
+								<table class="store heads from-tab-heads">
+								</table>
+							
+							</div>
+						</div>
+						<div class="from-tab-bag" id="bag">
+							<div id="bag_body"></div>
+						</div>
+						<div class="from-tab-saves" id="saves">
+              <div id="saves_menu">
+  							<button id="clear_saves" onclick="clearSaves()">Clear All Saves</button>
+  							<input type="text" value="" id="savename">
+  							<button class="write-save">Save Game</button>
+              </div>
+							<ul class="save-list"></ul>
+						</div>
+						<div class="from-tab-settings" id="settings">
+							<form>
+								<span>Game Mode:
+								<select name="gamemode" id="gamemode">
+                  <option value="test">Test</option>
+                  <option value="fountain">Fountain</option>
+									<option value="baby">Baby</option>
+									<option value="normie" selected>Normie</option>
+									<option value="hard">Hard</option>
+                  <option value="ghost">Ghost</option>
+								</select>
+								</span>
+								<p>(Changing game mode will reset the game)</p>
+								<input type="submit" value="Save">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="screen_neck_container">
+        <div id="screen_neck"></div>
+      </div>
+    </div>
+	</div>
+  <script src="/js/save.js"></script>
+</body>

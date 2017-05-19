@@ -1,0 +1,18 @@
+{
+	"stats": {
+		"weight": 5,
+		"hunger": 1,
+		"nbx": 99999999,
+		"tendies": 0,
+    "automine": 0,
+    "temperature": 0,
+    "temperature_rate": 1
+	},
+	"images": [
+		"body",
+		"keyboard",
+		"desk",
+		"wojak",
+		"tendies"
+	]
+}
