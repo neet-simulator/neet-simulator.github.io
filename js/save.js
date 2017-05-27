@@ -40,7 +40,7 @@ function readCookie(name) {
 }
 
 function eraseCookie(name) {
-	createBCookie(name,"",-1);
+	createCookie(name,"",-1);
 }
 
 function getSaveCookieName(name){
